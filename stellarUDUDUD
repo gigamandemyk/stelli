@@ -106,8 +106,8 @@ do
                 Keybind = Enum.KeyCode.C,
                 Hold = false,
                 Mode = {
-                    Ground = 'Assist',
-                    Air = 'Assist',
+                    Ground = 'Easing',
+                    Air = 'Easing',
                 },
                 Part = {
                     Ground = 'HumanoidRootPart',
@@ -137,12 +137,12 @@ do
                 },
                 Easing = {
                     Ground = {
-                        Smoothing = 0.195,
+                        Smoothing = 0.04,
                         EasingStyle = Enum.EasingStyle.Circular,
                         EasingDirection = Enum.EasingDirection.InOut,
                     },
                     Air = {
-                        Smoothing = 0.135,
+                        Smoothing = 0.04,
                         EasingStyle = Enum.EasingStyle.Circular,
                         EasingDirection = Enum.EasingDirection.InOut,
                     },
@@ -169,7 +169,7 @@ do
                     Ground = 0.12731,
                     Air = 0.12731,
                 },
-                Cooldown = 0,
+                Cooldown = 0.17,
                 GunSpecific = {
                     Enabled = false,
                     Detection = {
