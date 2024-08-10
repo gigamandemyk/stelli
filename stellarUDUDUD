@@ -75,7 +75,7 @@ do
                         Transparency = 0.5,
                         Color = Color3 .fromRGB(255, 0, 0),
                         Filled = false,
-                        Radius = 27,
+                        Radius = 45,
                     },
                 },
                 AntiCurve = {
@@ -169,7 +169,7 @@ do
                     Ground = 0.1213234923828338,
                     Air = 0.1213234923828338,
                 },
-                Cooldown = 0.32,
+                Cooldown = 0.1,
                 GunSpecific = {
                     Enabled = false,
                     Detection = {
