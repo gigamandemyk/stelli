@@ -21,7 +21,7 @@ do
                     OnScreen = true,
                     Friend = false,
                     Crew = false,
-                    KOGrab = false,
+                    KOGrab = true,
                     Wall = false,
                 },
                 ClosestPoint = {
@@ -35,8 +35,8 @@ do
                 },
             },
             TargetLock = {
-                Enabled = false,
-                ChangeTargetBind = Enum.KeyCode.Y,
+                Enabled = true,
+                ChangeTargetBind = Enum.KeyCode.T,
             },
             SilentAim = {
                 Enabled = true,
@@ -44,8 +44,8 @@ do
                 Keybind = Enum.KeyCode.Y,
                 Hold = false,
                 Prediction = {
-                    Ground = 0.1213234923828338,
-                    Air = 0.1213234923828338,
+                    Ground = 0.12731,
+                    Air = 0.12731,
                 },
                 HitChance = 100,
                 GunSpecific = {
@@ -65,7 +65,7 @@ do
                     Mode = 'Mouse',
                     Prediction = false,
                     Closest = true,
-                    Torso = true,
+                    Torso = false,
                     VisibleIfTarget = false,
                     VisibleColor = nil,
                     CornersScaleFactor = nil,
@@ -75,7 +75,7 @@ do
                         Transparency = 0.5,
                         Color = Color3 .fromRGB(255, 0, 0),
                         Filled = false,
-                        Radius = 45,
+                        Radius = 69,
                     },
                 },
                 AntiCurve = {
@@ -101,13 +101,13 @@ do
                 },
             },
             Aimbot = {
-                Enabled = false,
-                Default = true,
+                Enabled = true,
+                Default = false,
                 Keybind = Enum.KeyCode.C,
                 Hold = false,
                 Mode = {
-                    Ground = 'Easing',
-                    Air = 'Easing',
+                    Ground = 'Assist',
+                    Air = 'Assist',
                 },
                 Part = {
                     Ground = 'HumanoidRootPart',
@@ -115,8 +115,8 @@ do
                 },
                 Camera = true,
                 Prediction = {
-                    Ground = 0.17,
-                    Air = 0.17,
+                    Ground = 0.1,
+                    Air = 0.1,
                 },
                 DisableIf = {
                     ThirdPerson = false,
@@ -127,23 +127,23 @@ do
                     Ground = {
                         Strength = 3,
                         Speed = 1.23,
-                        Smoothing = 0.026,
+                        Smoothing = 1,
                     },
                     Air = {
                         Strength = 3,
                         Speed = 1.23,
-                        Smoothing = 0.026,
+                        Smoothing = 1,
                     },
                 },
                 Easing = {
                     Ground = {
-                        Smoothing = 0.026,
-                        EasingStyle = Enum.EasingStyle.Linear,
+                        Smoothing = 0.195,
+                        EasingStyle = Enum.EasingStyle.Circular,
                         EasingDirection = Enum.EasingDirection.InOut,
                     },
                     Air = {
-                        Smoothing = 0.026,
-                        EasingStyle = Enum.EasingStyle.Linear,
+                        Smoothing = 0.135,
+                        EasingStyle = Enum.EasingStyle.Circular,
                         EasingDirection = Enum.EasingDirection.InOut,
                     },
                 },
@@ -166,10 +166,10 @@ do
                 Keybind = Enum.KeyCode.B,
                 Hold = false,
                 Prediction = {
-                    Ground = 0.1213234923828338,
-                    Air = 0.1213234923828338,
+                    Ground = 0.12731,
+                    Air = 0.12731,
                 },
-                Cooldown = 0.1,
+                Cooldown = 0,
                 GunSpecific = {
                     Enabled = false,
                     Detection = {
@@ -186,7 +186,7 @@ do
                     ChecksEnabled = true,
                     Mode = 'Follow',
                     Prediction = true,
-                    Closest = false,
+                    Closest = true,
                     Torso = false,
                     VisibleIfTarget = true,
                     VisibleColor = nil,
@@ -211,7 +211,7 @@ do
                     ScrollWheel = false,
                 },
                 Noclip = {
-                    Enabled = false,
+                    Enabled = true,
                     Default = false,
                     Keybind = Enum.KeyCode.RightControl,
                     Hold = true,
@@ -238,7 +238,7 @@ do
                         CornersScaleFactor = nil,
                         Properties = {
                             Type = 'Circle',
-                            Visible = false,
+                            Visible = true,
                             Transparency = 0.5,
                             Color = Color3 .fromRGB(255, 0, 0),
                             Filled = false,
