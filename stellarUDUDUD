@@ -106,8 +106,8 @@ do
                 Keybind = Enum.KeyCode.C,
                 Hold = false,
                 Mode = {
-                    Ground = 'Easing',
-                    Air = 'Easing',
+                    Ground = 'Assist',
+                    Air = 'Assist',
                 },
                 Part = {
                     Ground = 'HumanoidRootPart',
@@ -126,13 +126,13 @@ do
                 Assist = {
                     Ground = {
                         Strength = 3,
-                        Speed = 1.23,
-                        Smoothing = 1,
+                        Speed = 2.73,
+                        Smoothing = 0.06,
                     },
                     Air = {
                         Strength = 3,
-                        Speed = 1.23,
-                        Smoothing = 1,
+                        Speed = 2.73,
+                        Smoothing = 0.06,
                     },
                 },
                 Easing = {
